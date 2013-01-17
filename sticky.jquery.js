@@ -1,5 +1,5 @@
 /**
- * Sticky 0.1.1 - jQuery plugin for sticking HTML element on a fixed position on a screen
+ * Sticky 0.1.2 - jQuery plugin for sticking HTML element on a fixed position on a screen
  * (c) 2013 Stanislav Gamayunov - happyproff.com
  * license: www.opensource.org/licenses/mit-license.php
  */
