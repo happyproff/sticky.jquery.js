@@ -1,5 +1,6 @@
 {
     "name": "styicky",
+    "version": "0.1.1",
     "title": "Styicky",
     "description": "sticking HTML element on a fixed position on a screen",
     "keywords":
@@ -7,9 +8,9 @@
             "ui",
             "position"
         ],
-    "version": "0.1.1",
     "author": {
         "name": "Stanislav Gamayunov",
+        "email": "happyproff@gmail.com",
         "url": "http://happyproff.com"
     },
     "licenses":
