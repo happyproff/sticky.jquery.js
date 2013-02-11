@@ -1,7 +1,7 @@
 {
-    "name": "styicky",
+    "name": "sticky",
     "version": "0.1.2",
-    "title": "Styicky",
+    "title": "Sticky",
     "description": "sticking HTML element on a fixed position on a screen",
     "keywords":
         [
