@@ -1,12 +1,12 @@
-sticky.jquery.js
+Sticky
 ================
 
-jQuery plugin for sticking HTML element on a fixed position on a screen
+The jQuery plugin allows the HTML-element to be on the screen even after scrolling.
 
 
 Usage
 -----
-Link the plugin from your page.
+Link the plugin.
 ```html
 <script src="js/jquery.min.js"></script>
 <script src="js/sticky.jquery.js"></script>
@@ -19,4 +19,4 @@ or
 ```javascript
 $('.sneakyBlock').sticky(50);
 ```
-where 50 is margin between screen top border and block.
+(50 is distance in pixels between block on top of screen.)
