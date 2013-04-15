@@ -1,12 +1,13 @@
 {
     "name": "sticky",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "title": "Sticky",
-    "description": "sticking HTML element on a fixed position on a screen",
+    "description": "The jQuery plugin allows the HTML-element to be on the screen even after scrolling",
     "keywords":
         [
             "ui",
-            "position"
+            "position",
+            "fixed"
         ],
     "author": {
         "name": "Stanislav Gamayunov",
@@ -17,7 +18,7 @@
         [
             {
                 "type": "MIT",
-                "url": "http://www.opensource.org/licenses/mit-license.php"
+                "url": "http://opensource.org/licenses/MIT"
             }
         ],
     "homepage": "http://happyproff.com/jquery-sticky-plugin/",

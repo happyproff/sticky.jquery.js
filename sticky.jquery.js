@@ -1,7 +1,11 @@
 /**
- * Sticky 0.1.2 - jQuery plugin for sticking HTML element on a fixed position on a screen
- * (c) 2013 Stanislav Gamayunov - happyproff.com
- * license: www.opensource.org/licenses/mit-license.php
+ * Sticky
+ * The jQuery plugin allows the HTML-element to be on the screen even after scrolling
+ * http://plugins.jquery.com/sticky/
+ *
+ * @version 0.1.5
+ * @license MIT
+ * @author Stanislav Gamaynov happyproff.com
  */
 (function ($) {
 
@@ -20,8 +24,8 @@
 
             $window.on('scroll', function() {
 
-                if ($window.scrollTop() > (startOffset - marginTop*1)) {
-                    $this.css('position', 'fixed').css('margin-top', '-' + (startOffset*1 - marginTop*1) + 'px');
+                if ($window.scrollTop() > (startOffset - parseInt(marginTop))) {
+                    $this.css('position', 'fixed').css('margin-top', '-' + (parseInt(startOffset) - parseInt(marginTop)) + 'px');
                 } else {
                     $this.css('position', startPosition).css('margin-top', '0');
                 }
