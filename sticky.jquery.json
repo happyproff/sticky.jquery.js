@@ -1,13 +1,14 @@
 {
     "name": "sticky",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "title": "Sticky",
     "description": "The jQuery plugin allows the HTML-element to be on the screen even after scrolling",
     "keywords":
         [
             "ui",
             "position",
-            "fixed"
+            "fixed",
+            "sticky"
         ],
     "author": {
         "name": "Stanislav Gamayunov",

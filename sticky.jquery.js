@@ -3,7 +3,7 @@
  * The jQuery plugin allows the HTML-element to be on the screen even after scrolling
  * http://plugins.jquery.com/sticky/
  *
- * @version 0.1.7
+ * @version 0.1.8
  * @license MIT
  * @author Stanislav Gamaynov happyproff.com
  */
