@@ -1,17 +1,17 @@
-Sticky
-================
+# Sticky
 
-The jQuery plugin allows the HTML-element to be on the screen even after scrolling.
+Sticky is jQuery plugin that fixes blocks on screen while scrolling. Tipically used for site menus.
 
+## Demo
+http://happyproff.com/jquery-sticky-plugin/
 
-Usage
------
-Link the plugin.
+## Usage
+Inlcude plugin:
 ```html
 <script src="js/jquery.min.js"></script>
 <script src="js/sticky.jquery.js"></script>
 ```
-use
+Use it:
 ```javascript
 $('.sneakyBlock').sticky();
 ```
@@ -19,4 +19,4 @@ or
 ```javascript
 $('.sneakyBlock').sticky(50);
 ```
-(50 is distance in pixels between block on top of screen.)
+(where 50 is distance in pixels between sneakyBlock and top of window)
