@@ -3,11 +3,12 @@
  * The jQuery plugin allows the HTML-element to be on the screen even after scrolling
  * http://plugins.jquery.com/sticky/
  *
- * @version 0.1.8
+ * @version 0.1.9
  * @license MIT
  * @author Stanislav Gamaynov happyproff.com
  */
 (function ($) {
+    "use strict";
 
     $.fn.sticky = function (marginTop) {
 
@@ -21,11 +22,12 @@
             var offset = $this.offset();
             var startOffset = offset.top;
             var startPosition = $this.css('position');
+            var startWidth = $this.width();
 
-            $window.on('scroll', function() {
+            $window.on('scroll', function () {
 
                 if ($window.scrollTop() > (startOffset - parseInt(marginTop))) {
-                    $this.css('position', 'fixed').css('margin-top', '-' + (parseInt(startOffset) - parseInt(marginTop)) + 'px');
+                    $this.css('position', 'fixed').css('margin-top', '-' + (parseInt(startOffset) - parseInt(marginTop)) + 'px').css('width', startWidth + 'px');
                 } else {
                     $this.css('position', startPosition).css('margin-top', '0');
                 }
