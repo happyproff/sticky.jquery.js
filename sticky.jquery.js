@@ -5,7 +5,7 @@
  *
  * @version 0.1.9
  * @license MIT
- * @author Stanislav Gamaynov happyproff.com
+ * @author Stanislav Gamaynov happyproff.ru
  */
 (function ($) {
     "use strict";
