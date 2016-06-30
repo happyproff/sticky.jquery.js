@@ -1,9 +1,9 @@
 # Sticky
 
-Sticky is jQuery plugin that fixes blocks on screen while scrolling. Tipically used for site menus.
+Sticky is jQuery plugin that fixes block on screen while scrolling. Tipically used for sitebars.
 
 ## Demo
-http://happyproff.com/jquery-sticky-plugin/
+http://happyproff.ru/jquery-sticky-plugin/
 
 ## Usage
 Inlcude plugin:
