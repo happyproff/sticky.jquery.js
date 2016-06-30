@@ -13,7 +13,7 @@
     "author": {
         "name": "Stanislav Gamayunov",
         "email": "happyproff@gmail.com",
-        "url": "http://happyproff.com"
+        "url": "http://happyproff.ru"
     },
     "licenses":
         [
@@ -22,8 +22,8 @@
                 "url": "http://opensource.org/licenses/MIT"
             }
         ],
-    "homepage": "http://happyproff.com/jquery-sticky-plugin/",
-    "demo": "http://happyproff.com/jquery-sticky-plugin/",
+    "homepage": "http://happyproff.ru/jquery-sticky-plugin/",
+    "demo": "http://happyproff.ru/jquery-sticky-plugin/",
     "dependencies": {
         "jquery": ">=1.7"
     }
